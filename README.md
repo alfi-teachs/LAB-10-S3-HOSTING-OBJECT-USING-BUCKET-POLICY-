@@ -52,6 +52,11 @@ In Permissions → Bucket Policy
 
 Paste this policy:
 
+### S3 Bucket Policy (Public Read Access)
+
+Replace `your-bucket-name` with your actual bucket name.
+
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -64,21 +69,7 @@ Paste this policy:
     }
   ]
 }
-
-
-
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicReadAccess",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
-    }
-  ]
-}
+```
 
 
 👉 Replace:
