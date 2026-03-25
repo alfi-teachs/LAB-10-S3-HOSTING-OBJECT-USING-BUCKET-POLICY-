@@ -2,6 +2,8 @@
 
 Use a bucket policy to make objects public and access objects using URL
 
+https://www.youtube.com/watch?v=Bf9dJ4wZ2l0&t=1s
+
 # Step 1: Create S3 Bucket
 
 Go to AWS Console → S3
